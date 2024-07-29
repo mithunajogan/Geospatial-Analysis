@@ -9,14 +9,14 @@ The food industry is highly competitive, with restaurants vying for attention in
 I employed a structured approach that integrated geospatial analysis with natural language processing techniques to analyze Zomato's restaurant data comprehensively. Here's a breakdown of my methodology:
 
 # Data Collection:
-Extracted restaurant data from Zomato’s API, including attributes such as restaurant names, locations (latitude and longitude), cuisines, user reviews, ratings, and pricing information.
+Extracted restaurant data, including attributes such as restaurant names, locations (latitude and longitude), cuisines, user reviews, ratings, and pricing information.
 
 # Data Cleaning and Preprocessing:
 Performed data cleaning to remove duplicates, fill in missing values, and format data for analysis.
 Used geocoding to convert address details into spatial coordinates for mapping purposes.
 
 # Geospatial Analysis:
-Utilized GIS tools and Python libraries like Geopandas and Shapely to visualize restaurant distributions on maps.
+Utilized GIS tools and Python libraries to visualize restaurant distributions on maps.
 Conducted spatial clustering to identify restaurant density hotspots and potential opportunity zones for new establishments.
 
 # Text Analysis:
@@ -35,7 +35,10 @@ Visualized text analysis results with word clouds and bar charts to depict trend
 Throughout the project, I utilized and honed several key skills:
 
 Python Programming: Used Python for data manipulation, analysis, and visualization tasks.
+
 Natural Language Processing (NLP): Implemented NLP techniques to extract insights from textual data using unigram, bigram, and trigram analysis.
+
 Data Visualization: Created visual representations of data insights using libraries like Matplotlib, Seaborn, and Plotly.
+
 Statistical Analysis: Analyzed correlations and trends to derive meaningful insights from data patterns.
 
